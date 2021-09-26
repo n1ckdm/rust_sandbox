@@ -60,4 +60,5 @@ pub fn run() {
     nick.set_lastname("Awesome");
     println!("Person: {}", nick.fullname());
     println!("Person as tuple {:?}", nick.to_tuple());
+    println!("Person: {}", nick.fullname());
 }
